@@ -119,7 +119,7 @@ vec3 rayMarch(vec3 ro, vec3 rd) {
         return explosionColor * (particles + wave * 2.0);
     }
     
-    float t = 0.0; (citação: GPT)
+    float t = 0.0;
     for(int i=0; i<100; i++) {
         vec3 p = ro + rd*t;
         float d = sceneSDF(p);
